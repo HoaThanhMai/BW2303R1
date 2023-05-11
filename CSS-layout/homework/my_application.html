@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Application</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .navbar {
+                background-color: rgb(29, 28, 28);
+                color: white;
+                list-style-type: none;
+                margin: 0;
+                display: block;
+                position: fixed;
+                width: 100%;
+                top:0;
+            }
+            .navbar li {
+                display: inline-block;
+                padding: 10px;
+                padding-top: 15px;
+            }
+            li:first-child {
+                font-size: larger;
+                margin-left: 20px;
+                width: 70%;
+            }
+            a {
+                text-decoration: none;
+                color: #8C8C8C;
+            }
+            a:hover {
+                color: white;
+                background-color: black;
+            }
+            .home {
+                color: white;
+            }
+            header {
+                text-align: center;
+            }
+            header p:first-child {
+                font-size: 40px;
+                font-style: bold;
+                margin: 18px;
+            }
+            .congratulations {
+                display: block;
+                text-align: center;
+            }
+            #get {
+                padding: 10px;
+                border: 1px solid;
+                border-radius: 5px;
+                background-color: #058F09;
+                color:white;
+            }
+            #get:hover {
+                background-color: #026305;
+            }
+            main {
+
+                margin-left: 3%;
+            }
+            section {
+                display: inline-block;
+                width: 30%;
+                margin: 20px;
+                height: 670px;
+            }
+            section div {
+                margin-bottom: 20px;
+            }
+            .button {
+                padding: 5px;
+                background-color: white;
+                color:#8C8C8C;
+                border: 1px solid #8C8C8C;
+                border-radius: 5px;
+            }
+            .button:hover {
+                background-color:#c7c4c4;
+            }
+            footer {
+                position: fixed;
+                width: 100%;
+                padding: 15px;
+                padding-left: 60px;
+                background-color: #f0e9e9;
+                color: #5c5b5b;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="navbar">
+                <li>My Application</li>
+                <li>
+                    <a class="home" href="my_application.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.yiiframework.com/">About</a>
+                </li>
+                <li>
+                    <a href="https://www.yiiframework.com/">Contract</a>
+                </li>
+                <li>
+                    <a href="https://www.yiiframework.com/">Signup</a>
+                </li>
+                <li>
+                    <a href="https://www.yiiframework.com/">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+                <p>Congratulations!<p>
+                <p>You have successfully created your Yii-powered application.</p>
+                <form action="https://www.yiiframework.com/" method="post">
+                    <input type="submit" id="get" value="Get started with Yii">
+                </form>
+        </header>
+        <main>
+            <section>
+                <h2>Heading</h2>
+                <div class="doc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate vlit esse cillum dolore eu fugiat nulla pariatu.</div>
+                <form action="https://www.yiiframework.com/" method="post">
+                    <input class="button" type="submit" value="Yii Documentation >>">
+                </form>
+            </section>
+            <section>
+                <h2>Heading</h2>
+                <div class="doc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate vlit esse cillum dolore eu fugiat nulla pariatu.</div>
+                <form action="https://www.yiiframework.com/" method="post">
+                    <input class="button" type="submit" value="Yii Forum >>">
+                </form>
+            </section>
+            <section>
+                <h2>Heading</h2>
+                <div class="doc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate vlit esse cillum dolore eu fugiat nulla pariatu.</div>
+                <form action="https://www.yiiframework.com/" method="post">
+                    <input class="button" type="submit" value="Yii Extensions >>">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <span>&#169;</span>
+            My Application 2023
+        </footer>
+    </body>
+</html>
