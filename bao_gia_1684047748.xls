@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Báo giá sản phẩm Công ty máy tính Hà Nội</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="<br />
+<b>Notice</b>:  Undefined variable: header in <b>/var/www/html/hanoicomputer.vn/public_html/cache/template/shopping_cart_new.1b3280bdcbf308db992dc2e6514abbca.php</b> on line <b>6</b><br />
+"/>
+<meta name="description" content="<br />
+<b>Notice</b>:  Undefined variable: header in <b>/var/www/html/hanoicomputer.vn/public_html/cache/template/shopping_cart_new.1b3280bdcbf308db992dc2e6514abbca.php</b> on line <b>7</b><br />
+"/>
+<META name="revisit-after" content="2 days"/>
+<META NAME="ROBOTS" CONTENT= "INDEX, FOLLOW"/>
+<META NAME="author" CONTENT= "CÔNG TY MÁY TÍNH HÀ NỘI"/>
+<META NAME="distribution" content= "global"/>
+<META NAME="Copyright" content="www.hacom.vn"/>
+    <style>
+        .list_table td{padding:5px; vertical-align:middle} 
+    </style>
+</head>
+<body>
+<div style="width: 700px;margin: 0 auto;">
+<table width="700" style="font-size: 15px">
+  <tr><td colspan="8"> </td></tr>
+  <tr>
+        <td colspan="1" valign="bottom">
+        </td>
+        <td colspan="3" valign="bottom">
+            <img style="margin-top: 15px;" src="https://hanoicomputercdn.com/media/lib/01-09-2022/logo-bg.png" alt="" width:150px;/>
+        </td>
+        <td colspan="4" align="right" style="line-height: 19px;">
+            <b style="color: #d2171b;font-size: 20px;">CÔNG TY CỔ PHẦN ĐẦU TƯ CÔNG NGHỆ HACOM</b><br />
+            <b style="color: #d2171b;">Trụ sở:</b> 131 Lê Thanh Nghị, Q. Hai Bà Trưng, TP. Hà Nội<br>
+            <b style="color: #d2171b;">Tel:</b> 19001903 <span style="color: #fff">_____</span><b style="color: #d2171b">Email:</b> info@hacom.vn<br />
+            <b style="color: #d2171b;">Website:</b> www.hacom.vn
+        </td>
+    </tr>
+  <tr><td colspan="8"> </td></tr>
+  <tr><td colspan="8" style="border-top: 3px solid #d2171b;"> </td></tr>
+    <tr>
+        <td colspan="8" style="color: #d2171b; font-size:23px; font-weight:bold; text-align:center; padding:15px 0;">BẢNG BÁO GIÁ VẬT TƯ, THIẾT BỊ
+</td>
+    </tr>
+</table>
+  
+<table width="700" style="font-size: 15px">
+  	<tr><td colspan="8"> </td></tr>
+    <tr>
+      <td colspan="4" align="left"><b>Ngày báo giá: <span id="price_time"></span></b></td>
+      <td colspan="4" align="right"><b>Đơn vị tính: <span style="color: #d2171b;">VNĐ</span></b></td>
+    </tr>
+  	<tr><td colspan="8"> </td></tr>
+  </table>  
+
+    <div style="padding: 10px;"></div>
+  
+  <table class="list_table" border="1" bordercolor="#ddd" style="font-size: 15px">
+    <tr style="background: #d2171b; color: #fff;white-space: nowrap;">
+      <td> <strong>STT</strong></td>
+      <td> <strong>Mã SP</strong></td>
+      <td colspan="2"><strong>Tên sản phẩm</strong></td>
+      <td> <strong>Bảo hành</strong></td>
+      <td> <strong>Số lượng</strong></td>
+      <td> <strong>Đơn giá</strong></td>
+      <td> <strong>Thành tiền</strong></td>
+      
+    </tr>
+    
+<!--  -->
+    
+    
+    
+    <tr valign="middle">
+        <td>1</td>
+        <td>CSVR060</td>
+        <td colspan="2">
+           <b>Vỏ Case VITRA CERES V305-G 3FRGB BLACK   (Mid Tower/Màu Đen/ Kèm sẵn 3 Fan RGB)</b><br/>
+
+           
+        </td>
+        <td>12 Tháng</td>
+        <td align="left">1</td>
+        <td>599.000 VNĐ</td>
+
+      <td align="right"><b>599.000 VNĐ</b></td>
+        
+    </tr>
+    <!-- 599000 -->
+    
+     <tr>
+               <td colspan="5"></td>
+               <td colspan="2"><strong>Phí vận chuyển</strong></td>
+               <td style="text-align: right;"><strong style="color: #d2171b;">0 VNĐ</strong></td>
+            </tr>
+            <tr>
+               <td colspan="5"></td>
+               <td colspan="2"><strong>Chi phí khác</strong></td>
+               <td style="text-align: right;"><strong style="color: #d2171b;">0 VNĐ</strong></td>
+            </tr>
+    <tr>
+               <td colspan="5"></td>
+               <td colspan="2"><strong>Tổng tiền đơn hàng</strong></td>
+               <td style="text-align: right;"><strong style="color: #d2171b; white-space: nowrap;">599.000 VNĐ</strong></td>
+            </tr>
+    
+       
+  </table>
+ 
+  
+ <table style="font-size: 15px"><tr><td colspan="8">&nbsp;</td></tr></table>
+  
+  <table width="700" style="font-size: 15px">
+    <tr><td colspan="8"><b style="color: #d2171b;">Quý khách lưu ý:</b> Giá bán, khuyến mại của sản phẩm và tình trạng còn hàng có thể bị thay đổi bất cứ lúc nào mà không kịp báo trước.</td></tr>
+    <tr><td colspan="8" style="border-bottom: 3px solid #d2171b;"></td></tr>
+    <tr><td colspan="8"></td></tr>
+    <tr><td colspan="4">
+       Để biết thêm chi tiết, vui lòng liên hệ<br />
+	   Hotline: 1900 1903 (8h00-21h30 hàng ngày)
+      </td>
+      <td colspan="4" align="right" style="color: #d2171b;font-size: 20px; font-weight: 700;">HACOM CHÂN THÀNH CẢM ƠN QUÝ KHÁCH</td>
+    </tr>
+  </table>
+
+<script>
+function show_time(){
+var currentdate = new Date();
+var date_time = currentdate.getDate() + "/"+(currentdate.getMonth()+1) + "/" + currentdate.getFullYear() + " " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+document.getElementById('price_time').innerHTML = date_time;
+}show_time();
+</script>
+</div>
+</body>
+</html>

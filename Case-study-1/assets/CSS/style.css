@@ -5,11 +5,36 @@ body {
 aside {
     width: 10%; 
     float: left;
-}
-.fix {
+    padding: 20px 15px;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    color: #939597
 }
-
+.panel-head {
+    padding: 13px;
+    margin-bottom: 30px;
+}
+Input {
+    display: none;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+}
+.menu-item {
+    list-style: none;
+    padding: 13px;
+}
+.menu-item span {
+    color: #939597;
+}
+.menu-item i {
+    color: #939597;
+}
+a {
+    text-decoration: none;
+}
 .page {
     float: right;
     width: 90%;

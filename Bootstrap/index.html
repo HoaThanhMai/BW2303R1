@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/CSS/bootstrap.min.css">
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <!--Xác định chiều cao của vùng thì mới căn giữa đc  -->
+        <div class="card w-75 shadow">
+            <div class="row d-flex alsign-items-center">
+                <div class="col-lg-5 d-none d-lg-flex">
+                <!-- d-none nên cần d-lg-flex: ko hiển thị, lg trở lên thì hiển thị -->
+                    <img class="img-fluid" src="media/Hinh-anh-cute.jpg" alt="" />
+                </div>
+                <div class="col-lg-7">
+                    <div class="row p-5">
+                        <div class="col-lg-8">
+                            <h1 class="display-4 fw-bold mb-5">Logo</h1>
+                            <h6>Sign into your account</h6>
+                            <form method="post" action="#">
+                                <div class="form-floating mb-3">
+                                    <input type="email" name="email" placeholder="Email-address" id="input" class="form-control"/>
+                                    <label for="email">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" name="password" placeholder="Password" id="password" class="form-control"/>
+                                    <label for="password">Password</label>
+                                </div>
+                                <div class="d-grid gap-2">
+                                    <input type="submit" value="Login" class="btn btn-warning fw-bold fs-6"/>
+                                </div>
+                            </form>
+                            <div class="pt-4">
+                                <div>
+                                    <a href="#" >Forgot Password?</a>
+                                </div>
+                                <div>
+                                    <span>Don't have any account?</span>
+                                    <a href="#">Register here</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>      
+</body>
+</html>
