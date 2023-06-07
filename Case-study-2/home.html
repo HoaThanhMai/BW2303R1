@@ -23,10 +23,13 @@
                 background-color: #58ddeb;
             }
             .background-color3 {
-                background-color: #d8f5ff;
+                background-color: #ffebd0;
             }
             .text-color1 {
-                color: #4f9d69;
+                color: #eea03b;
+            }
+            .text-color2 {
+                color: #7d8081;
             }
             .border-color1 {
                 border-color: #e0922e;
@@ -43,11 +46,19 @@
                 background-position: start center;
                 background-size: cover;
             }
+            .button1:hover {
+                opacity: 0.5;
+            }
+            .link1:hover {
+                color: black;
+            }
         </style>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-white p-0 fixed-top m-0">
+            <nav
+                class="navbar navbar-expand-lg bg-white p-0 fixed-top m-0 ps-2"
+            >
                 <div class="container-md width-nav align-items-center p-0">
                     <a class="navbar-brand p-0" href="#"
                         ><img
@@ -64,7 +75,7 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <a
-                                        class="nav-link dropdown-toggle fw-semibold text-black"
+                                        class="nav-link dropdown-toggle fw-semibold text-black button1"
                                         href="#"
                                         role="button"
                                         data-bs-toggle="dropdown"
@@ -117,28 +128,28 @@
                                 </li>
                                 <li class="nav-item">
                                     <a
-                                        class="nav-link text-black fw-semibold mx-2"
+                                        class="nav-link text-black fw-semibold mx-3 button1"
                                         href="#"
                                         >SELLING</a
                                     >
                                 </li>
                                 <li class="nav-item">
                                     <a
-                                        class="nav-link text-black fw-semibold mx-2"
+                                        class="nav-link text-black fw-semibold mx-3 button1"
                                         href="#"
                                         >ADDRESS</a
                                     >
                                 </li>
                                 <li class="nav-item">
                                     <a
-                                        class="nav-link text-black fw-semibold mx-2"
+                                        class="nav-link text-black fw-semibold mx-3 button1"
                                         href="#"
                                         >STANDARDS</a
                                     >
                                 </li>
                                 <li class="nav-item">
                                     <a
-                                        class="nav-link text-black fw-semibold mx-2"
+                                        class="nav-link text-black fw-semibold mx-3 button1"
                                         href="#"
                                         >PAAG</a
                                     >
@@ -147,7 +158,7 @@
                         </div>
                         <button
                             type="submit"
-                            class="background-color1 border-0 px-5 py-3 fw-semibold text-white mx-3 shadow rounded-2"
+                            class="background-color1 border-0 px-5 py-3 fw-semibold text-white mx-3 shadow rounded-2 button1"
                         >
                             REPORT
                         </button>
@@ -170,7 +181,7 @@
             <div class="container-fluid p-0 m-0">
                 <section class="banner">
                     <div
-                        class="container-fluid w-75 d-flex flex-column align-items-start pt-5 p-0"
+                        class="container-md d-flex flex-column align-items-start pt-5 p-0"
                     >
                         <div class="mt-5 text-start text-sm-end">
                             <h1
@@ -183,7 +194,7 @@
                             </h5>
                             <button
                                 type="button"
-                                class="fw-semibold p-3 background-color2 border-0 mt-4 shadow rounded-2"
+                                class="fw-semibold p-3 background-color2 border-0 mt-4 shadow rounded-2 button1 text-white"
                             >
                                 ADVICE ON HOW TO BUY A PET
                             </button>
@@ -191,13 +202,7 @@
                     </div>
                 </section>
                 <section class="m-0 p-0 z-0 banner2">
-                    <!-- <img
-                        src="assets/image/background-3.jpg"
-                        alt="background"
-                        class="position-absolute z-n1 img-fluid w-100"
-                    /> -->
-
-                    <div class="container-fluid w-75 pt-5">
+                    <div class="container-md pt-5">
                         <div
                             class="d-flex flex-column align-items-end align-self-end mb-5"
                         >
@@ -214,16 +219,14 @@
 
                             <button
                                 type="button"
-                                class="fw-semibold px-4 py-3 background-color2 border-0 my-5 shadow rounded-2"
+                                class="fw-semibold px-4 py-3 background-color2 border-0 my-5 shadow rounded-2 button1"
                             >
                                 SEE WHAT WE DO
                             </button>
                         </div>
                         <div class="row row-cols-1 row-cols-lg-3 g-5 mb-5">
                             <div class="col">
-                                <div
-                                    class="card shadow h-100 border-4 border-color1"
-                                >
+                                <div class="card shadow h-100 border-0">
                                     <div class="card-body p-4">
                                         <i
                                             class="fa-solid fa-scale-balanced fa-2xl text-color1"
@@ -237,7 +240,7 @@
                                         <div class="text-end mt-3">
                                             <a
                                                 href="#"
-                                                class="card-link text-decoration-none fw-bold text-color1"
+                                                class="card-link text-decoration-none fw-bold text-color1 button1"
                                                 >Go to selling a pet
                                                 <i
                                                     class="fa-sharp fa-solid fa-arrow-right text-color1"
@@ -248,9 +251,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div
-                                    class="card shadow h-100 border-4 border-color1"
-                                >
+                                <div class="card shadow h-100 border-0">
                                     <div class="card-body p-4">
                                         <i
                                             class="fa-solid fa-newspaper fa-2xl text-color1"
@@ -264,7 +265,7 @@
                                         <div class="text-end mt-3">
                                             <a
                                                 href="#"
-                                                class="card-link text-decoration-none fw-bold text-color1"
+                                                class="card-link text-decoration-none fw-bold text-color1 button1"
                                                 >Go to news
                                                 <i
                                                     class="fa-sharp fa-solid fa-arrow-right text-color1"
@@ -275,9 +276,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div
-                                    class="card shadow h-100 border-4 border-color1 border-lg-0"
-                                >
+                                <div class="card shadow h-100 border-0">
                                     <div class="card-body p-4">
                                         <i
                                             class="fa-solid fa-arrow-pointer fa-2xl text-color1"
@@ -291,7 +290,7 @@
                                         <div class="text-end mt-3">
                                             <a
                                                 href="#"
-                                                class="card-link text-decoration-none fw-bold text-color1"
+                                                class="card-link text-decoration-none fw-bold text-color1 button1"
                                                 >Go to about PAAG
                                                 <i
                                                     class="fa-sharp fa-solid fa-arrow-right text-color1"
@@ -305,14 +304,14 @@
                         <div
                             class="row background-color1 py-3 px-3 align-items-center shadow rounded-2"
                         >
-                            <div class="col-12 col-lg-1 text-center mt-3">
+                            <h5 class="col-12 col-lg-1 text-center mt-3">
                                 <i
                                     class="fa-solid fa-circle-exclamation fa-2xl text-white"
                                 ></i>
-                            </div>
+                            </h5>
                             <div class="col-12 col-lg-8 text-white">
                                 <h2 class="mt-4">
-                                    NEED TO REPORT A PET THAT'S ILL?
+                                    NEED TO REPORT A PET THAT'S ILL
                                 </h2>
                                 <p>
                                     Whilst looking at online pet adverts,
@@ -327,7 +326,7 @@
                             <div class="col-12 col-lg-3 text-center">
                                 <button
                                     type="button"
-                                    class="fw-semibold px-4 py-3 border-2 bg-white rounded-2"
+                                    class="fw-semibold px-4 py-3 border-2 bg-white rounded-2 btn shadow button1 text-color1"
                                 >
                                     REPORT AN ILL PET
                                 </button>
@@ -335,44 +334,73 @@
                         </div>
                     </div>
                 </section>
-                <section class="background-color3 mt-5">
+                <section class="background-color3 mt-4">
                     <div
-                        class="container-fluid w-75 d-flex flex-column align-items-center"
+                        class="container-md d-flex flex-column align-items-center"
                     >
-                        <h3 class="pt-5 text-center mb-4 fw-semibold">
+                        <h3
+                            class="pt-5 text-center mb-4 fw-semibold text-color1"
+                        >
                             FREQUENTLY ASKED QUESTIONS
                         </h3>
                         <div class="row row-cols-1 row-cols-lg-2">
-                            <div class="col d-flex flex-column align-items-end">
+                            <div class="col mb-4">
+                                <h5 class="mb-3 text-color1 fw-bold">
+                                    <i
+                                        class="fa-solid fa-dog fa-xl text-color1"
+                                    ></i
+                                    >BUYING A PUPPY?
+                                </h5>
+
                                 <div>
-                                    <h5>BUYING A PUPPY?</h5>
-                                    <ul>
-                                        <li>
-                                            What is the PAAG position on puppy
-                                            farming?
-                                        </li>
-                                        <li>
-                                            What should I look for to ensure I
-                                            avoid buying a pupppy-farmed dog?
-                                        </li>
-                                    </ul>
+                                    <i class="fa-solid fa-paw text-color1"></i>
+                                    <a
+                                        href="#"
+                                        class="text-decoration-none text-color1"
+                                        >What is the PAAG position on puppy
+                                        farming?</a
+                                    >
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-paw text-color1"></i>
+                                    <a
+                                        href="#"
+                                        class="text-decoration-none text-color1"
+                                        >What should I look for to ensure I
+                                        avoid buying a pupppy-farmed dog?</a
+                                    >
                                 </div>
                             </div>
                             <div class="col">
-                                <h5>ABOUT PAAG?</h5>
-                                <ul>
-                                    <li>Why have minimum standards?</li>
-                                    <li>
-                                        Why not campaign for a ban on
+                                <h5 class="mb-3 text-color1 fw-bold">
+                                    <i
+                                        class="fa-solid fa-shield-dog fa-xl text-color1"
+                                    ></i>
+                                    ABOUT PAAG?
+                                </h5>
+                                <div>
+                                    <i class="fa-solid fa-paw text-color1"></i>
+                                    <a
+                                        href="#"
+                                        class="text-decoration-none text-color1"
+                                        >Why have minimum standards?</a
+                                    >
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-paw text-color1"></i>
+                                    <a
+                                        href="#"
+                                        class="text-decoration-none text-color1"
+                                        >Why not campaign for a ban on
                                         selling/advertising pets over the
-                                        internet?
-                                    </li>
-                                </ul>
+                                        internet?</a
+                                    >
+                                </div>
                             </div>
                         </div>
                         <button
                             type="button"
-                            class="fw-semibold px-4 py-3 border-2 bg-white rounded-2"
+                            class="btn background-color1 border-0 px-4 py-3 fw-semibold text-white shadow mb-5 mt-4"
                         >
                             ALL FAQS
                         </button>
@@ -380,6 +408,54 @@
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="container-fluid bg-light mt-4">
+                <div
+                    class="container-md d-flex flex-column align-items-lg-center pt-5"
+                >
+                    <div class="d-flex flex-lg-row flex-column gap-4 gap-xl-5">
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >NEWS</a
+                        >
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >PRIVACY</a
+                        >
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >TS&CS</a
+                        >
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >CONTACT US: ADMIN @PAAG.ORG.UK</a
+                        >
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >SITE MAP</a
+                        >
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >FAQS</a
+                        >
+                        <a
+                            href="#"
+                            class="text-decoration-none fw-bold text-color2 link1"
+                            >FACEBOOK</a
+                        >
+                    </div>
+                    <div class="text-color2 mt-4 pb-5">
+                        Copyright © 2018 PAAG - Promoting Responsible Pet
+                        Advertising
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
